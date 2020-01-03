@@ -1,6 +1,6 @@
 package ;
-import storage.Storage;
-import messsaging.Messaging;
+import admin.storage.Storage;
+import admin.messsaging.Messaging;
 @:jsRequire("firebase-admin")
 extern class FirebaseApp {
     @selfCall

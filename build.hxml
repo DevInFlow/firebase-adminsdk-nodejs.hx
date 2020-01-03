@@ -1,0 +1,4 @@
+-cp src
+-lib hxnodejs
+-main test.App
+-js test/app.js

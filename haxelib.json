@@ -11,5 +11,8 @@
 	"url": "https://github.com/DevInFlow/firebaseasdk.haxe",
 	"classPath": "src",
 
-	"dependencies": { }
+	"dependencies": { 
+		"google-cloud.hx":"gh:https://github.com/DevInFlow/google-cloud.hx.git",
+		"haxe-js-kit":"gh:https://github.com/clemos/haxe-js-kit.git"
+	}
 }

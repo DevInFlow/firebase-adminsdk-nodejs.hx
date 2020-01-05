@@ -4,7 +4,7 @@
 - [x] App
 - [ ] Analityc
 - [ ] Auth
-- [ ] Database
+- [x] Database
 - [ ] Firestore
 - [ ] Functions
 - [ ] Installations

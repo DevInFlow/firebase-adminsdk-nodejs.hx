@@ -1,5 +1,7 @@
 -cp src
 -cp test
 -lib hxnodejs
+-lib google-cloud.hx
+-lib js-kit
 -main App
 -js bin/app.js

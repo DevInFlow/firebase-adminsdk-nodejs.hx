@@ -1,0 +1,4 @@
+-D js-kit=0.0.3
+# @install: lix --silent download "git:https://github.com/clemos/haxe-js-kit.git#b011c745161aa83da0e30254dd00ecd9f95492fa" into js-kit/0.0.3/git/b011c745161aa83da0e30254dd00ecd9f95492fa
+-lib hxnodejs
+-cp ${HAXE_LIBCACHE}/js-kit/0.0.3/git/b011c745161aa83da0e30254dd00ecd9f95492fa/

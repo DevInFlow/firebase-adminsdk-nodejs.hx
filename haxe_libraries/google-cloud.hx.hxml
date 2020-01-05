@@ -1,0 +1,4 @@
+-D google-cloud.hx=0.0.1
+# @install: lix --silent download "gh://github.com/DevInFlow/google-cloud.hx#15ab6fecec28adbe5e410b6731f01a1cd66ae7a4" into google-cloud.hx/0.0.1/github/15ab6fecec28adbe5e410b6731f01a1cd66ae7a4
+# -cp ${HAXE_LIBCACHE}/google-cloud.hx/0.0.1/github/15ab6fecec28adbe5e410b6731f01a1cd66ae7a4/src
+-cp /Volumes/Work/develop/haxe/devinflow.lib/google-cloud.hx/src

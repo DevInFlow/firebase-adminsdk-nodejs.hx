@@ -15,12 +15,11 @@ var App = function() {
 		var message_data_asdasd = "666";
 		var message_topic = "example2";
 		Admin.initializeApp({ credential : Admin.credential.cert(JSON.parse(serviceAccountKey)), storageBucket : "gs://devinflow-partner-icons/", databaseURL : "https://devinflow.firebaseio.com"});
-		var storage = new google_cloud_storage_Storage({ projectId : "devinflow", keyFilename : "devinflow-33d25f57b448.json"});
 		var partnerIcons = Admin.storage().bucket("devinflow-partner-icons");
-		partnerIcons.upload("test.jpg",{ destination : "test/imageTEst.jpg"}).then(function(response) {
-			console.log("test/App.hx:58:",response);
+		partnerIcons.upload("test.jpg",{ destination : "test/imageTEst2.jpg"}).then(function(response) {
+			console.log("test/App.hx:53:",response);
 			var file = response[0];
-			console.log("test/App.hx:60:",file);
+			console.log("test/App.hx:55:",file);
 			return;
 		});
 		var database = Admin.database();
@@ -36,7 +35,6 @@ App.main = function() {
 	new App();
 };
 Math.__name__ = true;
-var google_cloud_storage_Storage = require("@google-cloud/storage").Storage;
 var haxe_io_Error = $hxEnums["haxe.io.Error"] = { __ename__ : true, __constructs__ : ["Blocked","Overflow","OutsideBounds","Custom"]
 	,Blocked: {_hx_index:0,__enum__:"haxe.io.Error",toString:$estr}
 	,Overflow: {_hx_index:1,__enum__:"haxe.io.Error",toString:$estr}

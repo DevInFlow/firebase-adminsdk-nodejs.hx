@@ -47,14 +47,9 @@ class App {
 			// Node.console.log('Error sending message:', error);
 			// });
 
-			var storage = new Storage({
-				projectId: "devinflow",
-				keyFilename: "devinflow-33d25f57b448.json"
-			});
-
 			var partnerIcons:Bucket = Admin.storage().bucket("devinflow-partner-icons");
 			
-			partnerIcons.upload("test.jpg",{destination:"test/imageTEst.jpg"}).then((response:UploadResponse)->{
+			partnerIcons.upload("test.jpg",{destination:"test/imageTEst2.jpg"}).then((response:UploadResponse)->{
 				trace(response);
 				var file:File =response[0];
 				trace(file);

@@ -2,7 +2,7 @@ package ;
 import admin.storage.Storage;
 import admin.messsaging.Messaging;
 @:jsRequire("firebase-admin")
-extern class FirebaseApp {
+extern class Admin {
     @selfCall
     public function new():Void;
     public static var credential:Dynamic;

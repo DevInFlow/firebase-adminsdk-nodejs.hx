@@ -6,5 +6,5 @@ import js.Promise;
 #end
 
 @:jsRequire("admin.credential","Credential") extern class Credential{
-    public function getAccessToken():Promise<GoogleOAuthAccessToken> //need 
+    public function getAccessToken():Promise<GoogleOAuthAccessToken>; //need 
 }

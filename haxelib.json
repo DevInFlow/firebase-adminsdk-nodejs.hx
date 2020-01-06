@@ -1,5 +1,5 @@
 {
-	"name": "firebasesdk.haxe",
+	"name": "firebase-adminsdk-nodejs.hx",
 	"license": "MIT",
 	"tags": ["extern"],
 	"description": "Firebase Admin SDK haxe externs",
@@ -8,7 +8,7 @@
 	],
 	"releasenote": "The first target will be nodejs.",
 	"version": "0.0.1",
-	"url": "https://github.com/DevInFlow/firebaseasdk.haxe",
+	"url": "https://github.com/DevInFlow/firebase-adminsdk-nodejs.hx",
 	"classPath": "src",
 
 	"dependencies": { 
